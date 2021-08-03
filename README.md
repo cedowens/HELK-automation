@@ -5,18 +5,15 @@ This is building on the work that Antonio Piazza did at https://antman1p-30185.m
 
 I wrote a blog post with more details here: [add URL]
 
-## Quick Summary
 
-### Steps:
+## HELK Server Setup Steps:
 **Preparation Steps:**
 
 You will need a Digital Ocean account if you do not have one already. Once created, you will need to create an ssh key pair and then upload the public key to your Digital Ocean control panel (once logged in: **Settings → Security →Add ssh key**)
 
 You will also need to create a Digital Ocean Personal Access Token (once logged in: **API → Tokens/Keys → Generate New Token**)
 
-**After Digital Ocean Account Is Set Up:**
-
-***HELK Server Set Up***:
+**After Digital Ocean Account Is Set Up, You Proceed With the HELK Server Setup Steps Below:**
 
 This repo contains a folder named "HELK-Server". A summary of its contents is below:
 
@@ -78,7 +75,7 @@ Now you can browse to your new HELK Server over https and login using the helk u
 
 Now that the HELK server is set up, next you can get the filebeat client and Endpoint Security tool set up on the macOS test client.
 
-***macOS TEst Client Set Up***:
+## macOS TEst Client Set Up
 
 My HELK-automation github repo contains a "macOS-client" folder. This folder contains the following contents to help with automation on the macOS side:
 
@@ -93,6 +90,7 @@ My HELK-automation github repo contains a "macOS-client" folder. This folder con
 2. run ESF-setup.sh - note: ProcessMonitor will require full disk access to capture endpoint security events. So once this script is done give ProcessMonitor.app full disk access and then:
 
 > cd ProcessMonitor.app/Contents/MacOS
+
 > sudo ./ProcessMonitor > /tmp/esf.log
 
 That's it! Your macOS host should now be sending logs into your HELK Server in Digital Ocean!
