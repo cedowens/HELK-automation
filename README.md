@@ -3,7 +3,7 @@ Scripts to automate HELK server standup in Digital Ocean and heartbeat on macOS.
 
 This is building on the work that Antonio Piazza (@antman1P) did at https://antman1p-30185.medium.com/acting-red-seeing-blue-b04dd845c3dc. This repo automates some of the setup steps in Antonio's post using bash + terraform. 
 
-I wrote a blog post with more details here: [add URL]
+I wrote a blog post with more details here: https://cedowens.medium.com/helking-your-macos-red-team-tools-for-detections-b16d3a8b8807
 
 
 ## HELK Server Setup Steps:
