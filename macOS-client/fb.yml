@@ -380,7 +380,7 @@ output.logstash:
 
   #hosts: ["localhost:5044"]
 
-   hosts: ["147.182.225.7:5044"]
+   hosts: ["127.0.0.1:5044"]
 
 
 
