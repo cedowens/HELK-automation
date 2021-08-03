@@ -1,7 +1,7 @@
 # HELK-automation
 Scripts to automate HELK server standup in Digital Ocean and heartbeat on macOS. This is useful for blue and red teams who want to run offensive tools/tactics on macOS and view endpoint security logs in HELK to build detections. This also protects the HELK server by putting it behind a Digital Ocean cloud firewall and only allowing access to the IP(s) specified by the user during run.sh script execution.
 
-This is building on the work that Antonio Piazza (@antman1P) did at https://antman1p-30185.medium.com/acting-red-seeing-blue-b04dd845c3dc by automating the server and client sides.
+This is building on the work that Antonio Piazza (@antman1P) did at https://antman1p-30185.medium.com/acting-red-seeing-blue-b04dd845c3dc. This repo automates some of the setup steps in Antonio's post using bash + terraform. 
 
 I wrote a blog post with more details here: [add URL]
 
